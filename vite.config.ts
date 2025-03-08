@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_BASE_PATH || "NxtGen-Social-Media-vite-supabase",
+  base: process.env.VITE_BASE_PATH || "/NxtGen-Social-Media-vite-supabase",
 });
